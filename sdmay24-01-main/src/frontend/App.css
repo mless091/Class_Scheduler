@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  width: 100vw; /* Make the app take the full width of the viewport */
+  min-height: 100vh; /* Make the app take the minimum full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  background-color: #777;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9D1826; /* Change the color of the header bar */
+}
+
+.nav h1 {
+  font-size: 20px;
+  padding-left: 10px; /* Add left padding to the "Scheduler" text */
+}
+
+.tab {
+  background-color: #555; /* Change the color of the inactive tabs */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.tab-bar {
+  display: flex; /* Align items on the same line */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  background-color: #F1BE48; /* Change the color of the smaller bar */
+}
+.tab:hover {
+  background-color: #777;
+}
+
+.tab.active {
+  background-color: #8F4346; /* Change the color of the active tab */
+}
+.tab button {
+  margin-left: 10px; /* Add a margin to the left of the close button */
+}
+
+.add-tab {
+  background-color: #555; 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.new-class-settings {
+  background-color: #555; 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.time-slot {
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.nav h1 {
+  font-size: 20px;
+  padding-left: 10px; /* Add left padding to the "Scheduler" text */
+}.tab button {
+  margin-left: 10px; /* Add a margin to the left of the close button */
+}.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9D1826; /* Change the color of the header bar */
+}
+
+.nav h1 {
+  font-size: 20px;
+}
+
+.tab {
+  background-color: #555; /* Change the color of the inactive tabs */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #777;
+}
+
+.tab.active {
+  background-color: #8F4346; /* Change the color of the active tab */
+}
+
+.add-tab {
+  background-color: #555; 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.tab.active {
+  background-color: #8F4346; /* Color for active tab */
+  border: 2px solid #000; /* Add a border to the active tab */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  flex-grow: 1;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
